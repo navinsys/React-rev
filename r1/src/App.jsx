@@ -1,10 +1,21 @@
 import React from 'react'
-import Page from './components/Page'
+import Greet from './components/Greet'
+import Add from './components/Add'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import MainCon from './components/MainCon'
+import WelcomeMessage from './components/WelcomeMessage'
 
 const App = () => {
   return (
     <>
-     <Page/>
+     {/* <Greet/>
+     <Add/> */}
+     {/* <Header/>
+     <MainCon/>
+     <Footer/> */}
+     <WelcomeMessage/>
+    
     </>
   )
 }
